@@ -1,4 +1,4 @@
 @echo off
 
-node extract.js OperatorMonoLig-Medium
-node extract.js OperatorMonoLig-MediumItalic
+node extract.js OperatorMonoLig-Book
+node extract.js OperatorMonoLig-BookItalic

@@ -1,15 +1,15 @@
 @echo off
 
 del .\original\*.ttx
-ttx .\original\OperatorMono-Medium.otf
-ttx .\original\OperatorMono-MediumItalic.otf
+ttx .\original\OperatorMono-Book.otf
+ttx .\original\OperatorMono-BookItalic.otf
 
 if not exist build\* mkdir build
 
-node index.js OperatorMono-Medium
-node index.js OperatorMono-MediumItalic
+node index.js OperatorMono-Book
+node index.js OperatorMono-BookItalic
 
 del /q .\build\*.otf
 
-ttx .\build\OperatorMonoLig-Medium.ttx
-ttx .\build\OperatorMonoLig-MediumItalic.ttx
+ttx .\build\OperatorMonoLig-Book.ttx
+ttx .\build\OperatorMonoLig-BookItalic.ttx

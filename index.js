@@ -14,7 +14,7 @@ const NodeType = {};
 NodeType.TEXT_NODE = 3;
 
 async function main() {
-  fontName = process.argv[2] || 'OperatorMono-MediumItalic';
+  fontName = process.argv[2] || 'OperatorMono-BookItalic';
   ligFontName = fontName.split('-').join('Lig-');
 
   const srcFileName = `./original/${fontName}.ttx`;
